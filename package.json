@@ -1,0 +1,19 @@
+{
+  "name": "@a209m/pi-codex-usage",
+  "version": "0.1.0",
+  "description": "Codex usage and earned reset credits for the active Pi account slot",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a209m/pi-codex-usage"
+  },
+  "keywords": ["pi-package", "codex", "usage"],
+  "files": ["extensions/", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+  "pi": {
+    "extensions": ["./extensions/codex-usage.js"]
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
